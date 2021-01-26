@@ -13,7 +13,11 @@ Simple syntax highlighter for Bule (.bul).
 
 ### 1.0.0
 
-Initial release of Bule Syntax Highlighting
+Initial release of Bule Syntax Highlighting (v0.0.1)
+
+### 1.0.1
+
+Description changes and minor regex fix (v0.0.2)
 
 ## Bugs & improvement
 
