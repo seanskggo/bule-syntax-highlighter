@@ -4,13 +4,10 @@ Simple syntax highlighter for Bule (.bul).
 
 ## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+* Distinguish variables and constants
+* Only Bule-relevant operators and brackets highlight.
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+<img src="assets/vid.gif" width="600">
 
 ## Release Notes
 
