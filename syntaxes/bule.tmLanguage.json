@@ -27,7 +27,7 @@
 			"name": "keyword.control.bul"
 		},
 		"special": {
-			"match": "[:.]",
+			"match": "[:\\.][ :\n]",
 			"name": "string.other.bul"
 		}
 	},
