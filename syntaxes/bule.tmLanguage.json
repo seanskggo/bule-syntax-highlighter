@@ -4,6 +4,8 @@
 	"patterns": [
 		{"include": "#keywords"},
 		{"include": "#strings"},
+		{"include": "#variables"},
+		{"include": "#constants"},
 		{"include": "#comments"}
 	],
 	"repository": {
@@ -28,6 +30,10 @@
 			"begin": "%",
 			"end": "\n",
 			"name": "comment.line.percentage.bul"
+		},
+		"variables": {
+			"match": "[A-Z]\\w*",
+			"name": "variable.paramter.bul"
 		}
 	},
 	"scopeName": "source.bul"
