@@ -2,30 +2,13 @@
 	"$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
 	"name": "Bule",
 	"patterns": [
-		{"include": "#keywords"},
-		{"include": "#strings"},
 		{"include": "#variables"},
 		{"include": "#constants"},
+		{"include": "#special"},
+		{"include": "#brackets"},
 		{"include": "#comments"}
 	],
 	"repository": {
-		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.bul",
-				"match": "\\b(if|while|for|return|yeet)\\b"
-			}]
-		},
-		"strings": {
-			"name": "string.quoted.double.bul",
-			"begin": "\"",
-			"end": "\"",
-			"patterns": [
-				{
-					"name": "constant.character.escape.bul",
-					"match": "\\\\."
-				}
-			]
-		},
 		"comments": {
 			"begin": "%",
 			"end": "\n",
@@ -34,6 +17,18 @@
 		"variables": {
 			"match": "[A-Z]\\w*",
 			"name": "variable.paramter.bul"
+		},
+		"constants": {
+			"match": "[a-z]\\w*",
+			"name": "constant.language.bul"
+		},
+		"brackets": {
+			"match": "[\\[\\]\\(\\)]",
+			"name": "keyword.control.bul"
+		},
+		"special": {
+			"match": "[:.]",
+			"name": "string.other.bul"
 		}
 	},
 	"scopeName": "source.bul"
