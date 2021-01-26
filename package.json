@@ -2,6 +2,8 @@
     "name": "bule-syntax-highlighting",
     "displayName": "Bule Syntax Highlighting",
     "description": "Syntax Highlighter for Bule",
+    "icon": "assets/bule.png",
+    "publisher": "seanskggo",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.52.0"
