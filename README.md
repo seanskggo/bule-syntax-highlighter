@@ -1,4 +1,4 @@
-# bule-syntax-highlighting
+# Bule Syntax Highlighting
 
 Simple syntax highlighter for Bule (.bul).
 
