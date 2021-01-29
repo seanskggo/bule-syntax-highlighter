@@ -24,3 +24,10 @@ Description changes and minor regex fix (v0.0.2)
 For any bugs or improvement suggestions, please open an issue at:
 
 https://github.com/seanskggo72/vscode-bule-syntax-highlighting
+
+---------------------------------------------------------------------------------------------------------------------------------------
+## Repository Notes
+
+This extension is available in VS Code marketplace:
+
+https://marketplace.visualstudio.com/items?itemName=seanskggo.bule-syntax-highlighting
