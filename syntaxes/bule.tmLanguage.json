@@ -6,7 +6,9 @@
 		{"include": "#constants"},
 		{"include": "#special"},
 		{"include": "#brackets"},
-		{"include": "#comments"}
+		{"include": "#comments"},
+		{"include": "#keywords"},
+		{"include": "#hashtag"}
 	],
 	"repository": {
 		"comments": {
@@ -27,8 +29,16 @@
 			"name": "keyword.control.bul"
 		},
 		"special": {
-			"match": "[:\\.][ :\n]",
+			"match": "[?:\\.][ :\n]",
 			"name": "string.other.bul"
+		},
+		"keywords": {
+			"match": "#exists|#forall",
+			"name": "keyword.control.bul"
+		},
+		"hashtag": {
+			"match": "#",
+			"name": "keyword.control.bul"
 		}
 	},
 	"scopeName": "source.bul"
