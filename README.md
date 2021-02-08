@@ -19,6 +19,10 @@ Initial release of Bule Syntax Highlighting (v0.0.1)
 
 Description changes and minor regex fix (v0.0.2)
 
+### 1.0.2
+
+Syntax highlight of implicitly and explicitly generated variables (v0.0.3)
+
 ## Bugs & improvement
 
 For any bugs or improvement suggestions, please open an issue at:
