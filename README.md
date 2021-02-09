@@ -21,17 +21,10 @@ Description changes and minor regex fix (v0.0.2)
 
 ### 1.0.2
 
-Syntax highlight of implicitly and explicitly generated variables (v0.0.3)
+Highlight for existential and universal quantifiers (v0.0.4)
 
 ## Bugs & improvement
 
 For any bugs or improvement suggestions, please open an issue at:
 
 https://github.com/seanskggo72/vscode-bule-syntax-highlighting
-
----------------------------------------------------------------------------------------------------------------------------------------
-## Repository Notes
-
-This extension is available in VS Code marketplace:
-
-https://marketplace.visualstudio.com/items?itemName=seanskggo.bule-syntax-highlighting
